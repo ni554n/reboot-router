@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RebootRouter</string>
+
+    <string name="hint_gateway">Default Gateway</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
 </resources>

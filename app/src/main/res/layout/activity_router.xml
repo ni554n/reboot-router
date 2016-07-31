@@ -8,12 +8,13 @@
 
     <include layout="@layout/content_router" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+    <android.support.design.widget.FloatingActionButton android:id="@+id/fab"
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
+        android:layout_gravity="bottom"
         android:layout_margin="@dimen/fab_margin"
-        android:src="@android:drawable/ic_dialog_email" />
-
+        android:src="@drawable/ic_reboot"
+        fab:backgroundTint="@color/fabColor"
+        fab:rippleColor="@color/colorActivated" />
 </android.support.design.widget.CoordinatorLayout>
