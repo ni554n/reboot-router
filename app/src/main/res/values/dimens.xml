@@ -4,6 +4,7 @@
 
     <!-- CardView -->
     <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_layout_width">320dp</dimen>
     <dimen name="card_layout_margin">16dp</dimen>
     <dimen name="card_elevation">4dp</dimen>
     <dimen name="in_card_linear_layout_padding">16dp</dimen>
