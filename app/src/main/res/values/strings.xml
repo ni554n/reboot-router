@@ -1,7 +1,14 @@
 <resources>
-    <string name="app_name">RebootRouter</string>
+    <string name="app_name">Reboot Router</string>
 
-    <string name="hint_gateway">Default Gateway</string>
+    <string name="hint_gateway">Gateway</string>
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
+
+    <string name="no_wifi">Not connected to Wi-Fi.</string>
+    <string name="rebooting">Rebooting…</string>
+    <string name="reboot_failed">Rebooting has been failed!</string>
+    <string name="empty_fields">Fields can not be empty.</string>
+    <string name="auth_failed">Authentication failed!</string>
+    <string name="connection_failed">Failed to establish connection.</string>
 </resources>
