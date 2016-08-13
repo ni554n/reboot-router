@@ -42,6 +42,7 @@ public class RouterActivity extends AppCompatActivity
     private TextInputEditText usernameEditText;
     private TextInputEditText passwordEditText;
     private RouterFields routerFields;
+    private int snackbarColor;
     private boolean fieldsHasChanged;
 
     @Override
@@ -62,6 +63,8 @@ public class RouterActivity extends AppCompatActivity
 
         routerPresenter = new RouterPresenter(this);
         routerPresenter.setupFields();
+
+        snackbarColor = ResourcesCompat.getColor(getResources(), R.color.colorPrimaryDark, null);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(this);
@@ -111,8 +114,7 @@ public class RouterActivity extends AppCompatActivity
         Snackbar snackbar = Snackbar.make(coordinatorLayout,
                 this.getString(resId),
                 Snackbar.LENGTH_LONG);
-        snackbar.getView().setBackgroundColor(ResourcesCompat.getColor(getResources(),
-                R.color.colorPrimaryDark, null));
+        snackbar.getView().setBackgroundColor(snackbarColor);
         snackbar.show();
     }
 

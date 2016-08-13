@@ -4,21 +4,23 @@
 [![Minimum](https://img.shields.io/badge/minimum-Android_2.3-green.svg)](#)
 [![Download](https://img.shields.io/badge/download-APK-blue.svg)](https://github.com/ni554n/reboot-router/releases/download/v1.0/RebootRouter_1.0.apk)
 
-*Reboot Router* can **restart** TP-LINK routers with one click.
-
-As TP-LINK doesn't provide any standard API for communicating with low-end model routers, this app is just a **shortcut** to reboot functionality of the router's web client.
-If your router has [this](https://github.com/ni554n/reboot-router/raw/master/art/screen_router_web_client.png) or similar UI, it should probably work.
-I also wrote a **Python3** script that has somewhat equivalent functionality. Check this [gist](https://gist.github.com/ni554n/fdbab004af3b5c6b28b961af96347250) if you are interested.
-
+_**Reboot Router**_ can **restart** TP-LINK routers with one click.
+___
 <p align="center">
-  <img src="https://github.com/ni554n/reboot-router/raw/master/art/art_reboot_router.png">
+  <img src="https://github.com/ni554n/reboot-router/raw/master/art/screen_reboot_router.png">
 </p>
-## Tested on
+___
+As TP-LINK doesn't provide any standard API for communicating with low-end router models, this app is just a **shortcut** to reboot functionality of the router's web client.
+If your router has [this](https://github.com/ni554n/reboot-router/raw/master/art/screen_router_web_client.png) UI, it should probably work.
+I also wrote a **Python 3** script that has somewhat equivalent functionality. Check this [gist](https://gist.github.com/ni554n/fdbab004af3b5c6b28b961af96347250) if you are interested.
+
+## Supported Models
 - [x] TD-W8950N
 - [x] TD-W8950ND
+- [x] TD-W8951ND
 - [x] TD-W8960N
 
-## [LICENCE](/LICENCE)
+## [LICENSE](/LICENSE)
 
 ###### Copyright 2016 Nissan Ahmed
 
