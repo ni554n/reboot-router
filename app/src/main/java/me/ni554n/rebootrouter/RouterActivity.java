@@ -52,6 +52,8 @@ public class RouterActivity extends AppCompatActivity
 
         coordinatorLayout = (CoordinatorLayout) findViewById(R.id.layout_coordinator);
 
+        snackbarColor = ResourcesCompat.getColor(getResources(), R.color.colorPrimaryDark, null);
+
         gatewayEditText = (TextInputEditText) findViewById(R.id.input_gateway);
         gatewayEditText.addTextChangedListener(this);
 
@@ -64,8 +66,6 @@ public class RouterActivity extends AppCompatActivity
         routerPresenter = new RouterPresenter(this);
         routerPresenter.setupFields();
 
-        snackbarColor = ResourcesCompat.getColor(getResources(), R.color.colorPrimaryDark, null);
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(this);
     }
@@ -73,7 +73,6 @@ public class RouterActivity extends AppCompatActivity
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.fab) {
-
             if (fieldsHasChanged) {
                 String gateway = gatewayEditText.getText().toString();
                 String username = usernameEditText.getText().toString();
